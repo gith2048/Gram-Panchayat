@@ -1,5 +1,5 @@
 # Digital E-Gram Panchayat 🏛️
-
+hosted link:https://village-servify.lovable.app
 A modern digital governance platform empowering rural India through seamless access to government services, schemes, and certificates. Built with React, TypeScript, and modern web technologies.
 
 ## 🌟 Features
