@@ -67,7 +67,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-1">
             <Link to="/">
               <Button 
-                variant={isActive('/') ? 'secondary' : 'ghost'} 
+                variant={isActive('/') ? 'secondary' : 'nav'} 
                 size="sm"
               >
                 Home
@@ -75,7 +75,7 @@ export function Navbar() {
             </Link>
             <Link to="/services">
               <Button 
-                variant={isActive('/services') ? 'secondary' : 'ghost'} 
+                variant={isActive('/services') ? 'secondary' : 'nav'} 
                 size="sm"
               >
                 Services
@@ -83,7 +83,7 @@ export function Navbar() {
             </Link>
             <Link to="/about">
               <Button 
-                variant={isActive('/about') ? 'secondary' : 'ghost'} 
+                variant={isActive('/about') ? 'secondary' : 'nav'} 
                 size="sm"
               >
                 About
@@ -157,13 +157,13 @@ export function Navbar() {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col gap-2">
               <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>
-                <Button variant="ghost" className="w-full justify-start">Home</Button>
+                <Button variant="nav" className="w-full justify-start">Home</Button>
               </Link>
               <Link to="/services" onClick={() => setIsMobileMenuOpen(false)}>
-                <Button variant="ghost" className="w-full justify-start">Services</Button>
+                <Button variant="nav" className="w-full justify-start">Services</Button>
               </Link>
               <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>
-                <Button variant="ghost" className="w-full justify-start">About</Button>
+                <Button variant="nav" className="w-full justify-start">About</Button>
               </Link>
               
               <div className="border-t border-border my-2" />
